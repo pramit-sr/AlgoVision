@@ -34,16 +34,13 @@ const App = () => {
     'Quick Sort',
     'Merge Sort',
     'Bubble Sort',
-    'Insertion Sort',
     'Selection Sort',
   ];
 
   const searchingAlgorithms = [
     'Binary Search',
     'Linear Search',
-    'Jump Search',
-    'Exponential Search',
-    'Interpolation Search',
+    'Ternary Search',
   ];
 
   const pathfindingAlgorithms = [
@@ -51,7 +48,7 @@ const App = () => {
     'A* Search Algorithm',
     'Breadth-First Search (BFS)',
     'Depth-First Search (DFS)',
-    'Greedy Best-First Search',
+    'Bellman-Ford Algorithm',
   ];
 
   return (

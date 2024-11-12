@@ -1,6 +1,5 @@
 import React from 'react';
-import styles from '../style';
-import Button from './Button';
+import styles from '../style'; // Assuming styles are defined elsewhere
 
 // InfoCard Component
 const InfoCard = ({ title, description, algorithms, link }) => {
@@ -17,9 +16,7 @@ const InfoCard = ({ title, description, algorithms, link }) => {
       </ul>
       {/* Explore Button */}
       <a
-        href={link}
-        target="_blank"
-        rel="noopener noreferrer"
+        href={link} // External link (opens in the same tab by default)
         className="inline-block px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
       >
         Explore
@@ -52,25 +49,27 @@ const App = () => {
   ];
 
   return (
-    <div className="flex flex-row justify-center flex-wrap">
-      <InfoCard
-        title="Searching Algorithms"
-        description="Searching algorithms are techniques for finding specific data within a structure, such as an array or list."
-        algorithms={searchingAlgorithms}
-        link="https://pramit-sr.github.io/main/" // External link for Searching Algorithms
-      />
-      <InfoCard
-        title="Sorting Algorithms"
-        description="Sorting algorithms are methods for rearranging a list of items in a specific order, typically ascending or descending."
-        algorithms={sortingAlgorithms}
-        link="https://shubhrajitbiswas.github.io/main/" // External link for Sorting Algorithms
-      />
-      <InfoCard
-        title="Pathfinding Algorithms"
-        description="Pathfinding algorithms are used to determine the best path from one point to another within a graph or grid."
-        algorithms={pathfindingAlgorithms}
-        link="https://shubhrajitbiswas.github.io/Pathfinding/" // External link for Pathfinding Algorithms
-      />
+    <div className="flex flex-col items-center">
+      <div className="flex flex-row justify-center flex-wrap mb-4">
+        <InfoCard
+          title="Searching Algorithms"
+          description="Searching algorithms are techniques for finding specific data within a structure, such as an array or list."
+          algorithms={searchingAlgorithms}
+          link="https://pramit-sr.github.io/main/" // External link for Searching Algorithms
+        />
+        <InfoCard
+          title="Sorting Algorithms"
+          description="Sorting algorithms are methods for rearranging a list of items in a specific order, typically ascending or descending."
+          algorithms={sortingAlgorithms}
+          link="https://shubhrajitbiswas.github.io/main/" // External link for Sorting Algorithms
+        />
+        <InfoCard
+          title="Pathfinding Algorithms"
+          description="Pathfinding algorithms are used to determine the best path from one point to another within a graph or grid."
+          algorithms={pathfindingAlgorithms}
+          link="https://shubhrajitbiswas.github.io/Pathfinding/" // External link for Pathfinding Algorithms
+        />
+      </div>
     </div>
   );
 };

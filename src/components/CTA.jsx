@@ -55,7 +55,7 @@ const App = () => {
           title="Searching Algorithms"
           description="Searching algorithms are techniques for finding specific data within a structure, such as an array or list."
           algorithms={searchingAlgorithms}
-          link="https://pramit-sr.github.io/main/" // External link for Searching Algorithms
+          link="https://algovision-searching.vercel.app/" // External link for Searching Algorithms
         />
         <InfoCard
           title="Sorting Algorithms"

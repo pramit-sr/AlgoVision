@@ -61,7 +61,7 @@ const App = () => {
           title="Sorting Algorithms"
           description="Sorting algorithms are methods for rearranging a list of items in a specific order, typically ascending or descending."
           algorithms={sortingAlgorithms}
-          link="https://shubhrajitbiswas.github.io/main/" // External link for Sorting Algorithms
+          link="https://algovision-sorting.vercel.app/" // External link for Sorting Algorithms
         />
         <InfoCard
           title="Pathfinding Algorithms"

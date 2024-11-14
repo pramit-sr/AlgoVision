@@ -67,7 +67,7 @@ const App = () => {
           title="Pathfinding Algorithms"
           description="Pathfinding algorithms are used to determine the best path from one point to another within a graph or grid."
           algorithms={pathfindingAlgorithms}
-          link="https://shubhrajitbiswas.github.io/Pathfinding/" // External link for Pathfinding Algorithms
+          link="https://algovision-pathfinding-algorithm.vercel.app/" // External link for Pathfinding Algorithms
         />
       </div>
     </div>

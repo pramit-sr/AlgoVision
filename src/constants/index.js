@@ -105,66 +105,66 @@ export const stats = [
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Useful links",
     links: [
       {
         name: "Content",
-        link: "https://www.hoobank.com/content/",
+       /* link: "https://www.hoobank.com/content/",     */
       },
       {
         name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+       /* link: "https://www.hoobank.com/how-it-works/", */
       },
-      {
+      {/*
         name: "Create",
         link: "https://www.hoobank.com/create/",
-      },
-      {
+      */},
+      {/*
         name: "Explore",
         link: "https://www.hoobank.com/explore/",
-      },
-      {
+      */},
+      {/*
         name: "Terms & Services",
         link: "https://www.hoobank.com/terms-and-services/",
-      },
+      */},
     ],
   },
   {
-    title: "Community",
+    title: "Contact Us",
     links: [
       {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        name: "Prakhar Dixit",
+        link: "mailto:221b269@juetguna.in",
       },
-      {
+      {/*
         name: "Partners",
         link: "https://www.hoobank.com/partners/",
+      */},
+      {
+        name: "Pramit Sarkar",
+        link: "mailto:221b271@juetguna.in",
       },
       {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        name: "Shubhrajit Biswas",
+        link: "mailto:221b381@juetguna.in",
       },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
+      {/*
         name: "Newsletters",
         link: "https://www.hoobank.com/newsletters/",
-      },
+      */},
     ],
   },
   {
-    title: "Partner",
+    title: "Address",
     links: [
       {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        name: "Jaypee University of Engineering & Technology,Guna",
+
       },
-      {
+      {/*
         name: "Become a Partner",
         link: "https://www.hoobank.com/become-a-partner/",
-      },
+      */},
     ],
   },
 ];
